@@ -36,9 +36,9 @@ class CountVectorizer:
 
         self.raw_documents = raw_documents
 
-        raw_documents, feature_names, doc_term_matrix, fmt_pattern = vars(
-            self
-        ).values()
+        feature_names = self.feature_names
+        doc_term_matrix = self.doc_term_matrix
+        fmt_pattern = self.fmt_pattern
 
         for el in raw_documents:
             feature_names.extend(fmt_pattern(el))
