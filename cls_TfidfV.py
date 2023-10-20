@@ -1,7 +1,11 @@
 import math
+from typing import TypeVar, Generic
 
 
-class CountVectorizer:
+T = TypeVar("T", int, float)
+
+
+class CountVectorizer(Generic[T]):
     """Convert a collection of text list to a matrix of token counts.
 
     Methods
@@ -19,7 +23,7 @@ class CountVectorizer:
         self.doc_term_matrix: list = []
         self.fmt_pattern = lambda x: x.lower().split(" ")
 
-    def fit_transform(self, raw_documents: list[str]) -> list[list[int]]:
+    def fit_transform(self, raw_documents: list[str]) -> list[list[T]]:
         """Learn the vocabulary dictionary and return document-term matrix.
 
         Parameters
