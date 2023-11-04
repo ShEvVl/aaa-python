@@ -1,0 +1,10 @@
+test_cities (testing_tools.tests_issues.issue-03.test_one_hot_encoder.TestFitTransform.test_cities) ... ok
+test_empty (testing_tools.tests_issues.issue-03.test_one_hot_encoder.TestFitTransform.test_empty) ... ok
+test_non_inclusion_empty_input (testing_tools.tests_issues.issue-03.test_one_hot_encoder.TestFitTransform.test_non_inclusion_empty_input) ... ok
+test_non_inclusion_multiple (testing_tools.tests_issues.issue-03.test_one_hot_encoder.TestFitTransform.test_non_inclusion_multiple) ... ok
+test_uniqueness (testing_tools.tests_issues.issue-03.test_one_hot_encoder.TestFitTransform.test_uniqueness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
