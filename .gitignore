@@ -1,0 +1,7 @@
+.mypy_cache
+.pytest_cache
+testing_tools
+venv
+aaa-final-task/__pycache__
+aaa-final-task/.mypy_cache
+aaa-final-task/.pytest_cache
